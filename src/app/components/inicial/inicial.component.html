@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicial</title>
+</head>
+
+  <body>
+    <!-- Barra superior de navegación -->
+    <div class="container-fluid">
+      <nav id = "NavbarPrincipal" class="navbar navbar-expand-sm ">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+              SUBHUB
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="MenuNavegacion" class="collapse navbar-collapse">
+              <ul class="navbar-nav gap-3 px-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#sobrenosotros" style="color:black;">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto"style="color:black;">Contacto</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ms-auto gap-3 px-3">
+                <li class="nav-item rounded-pill" style="background-color: #387e90;">
+                  <a class="nav-link" href="/" style="color:white">Crear cuenta</a>
+                </li>
+                <li class="nav-item rounded-pill" style="background-color: #387e90;">
+                  <a class="nav-link" href="/iniciar-sesion" style="color:white">Iniciar sesión</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    </div>
+
+  <!-- Logo + Info Empresa -->
+  <div class="row align-items-center text-center"  style="background-color: #387e90; padding-block: 2%;">
+       <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+         <img src="assets\Images\SUBHUB_LOGO.png" class="img-fluid center-block">
+       </div>
+       <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" style="color:white">
+         <p>INFO DE NUESTRA EMPRESA</p>
+       </div>
+  </div>
+
+  <!-- Nuestros usuarios -->
+  <div class="row align-items-center text-center" style="padding-block: 10%;">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <p>Nuestros usuarios</p>
+    </div>
+</div>
+
+<!-- Características -->
+<div class="row align-items-center text-center" style="padding-block: 10%;">
+  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <p>Características</p>
+  </div>
+</div>
+
+<!-- Opiniones -->
+<div class="row align-items-center text-center" style="padding-block: 10%;">
+  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <p>Opiniones</p>
+  </div>
+</div>
+
+<div data-bs-spy="scroll" data-bs-target="#NavbarPrincipal" data-bs-offset="0" class="scrollspy-example" tabindex="0" class="row align-items-center text-center" style="color:black">
+  <h4 id="sobrenosotros">Sobre nosotros</h4>
+  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <p>Somos alumnos cursando PAE.</p>
+  </div>
+</div>
+
+<div data-bs-spy="scroll" data-bs-target="#NavbarPrincipal" data-bs-offset="0" class="scrollspy-example" tabindex="0" class="row align-items-center text-center" style="color:black; padding-block: 20%;">
+  <h4 id="contacto">Contacto</h4>
+  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <p>Este es nuestro contacto</p>
+  </div>
+</div>
+</body>
+
+</html>
