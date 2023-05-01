@@ -1,20 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StyleboxInfoComponent } from './stylebox-info.component';
+import { AreaPrivadaComponent } from './area-privada.component';
 
-
-
-describe('StyleboxInfoComponent', () => {
-  let component: StyleboxInfoComponent;
-  let fixture: ComponentFixture<StyleboxInfoComponent>;
+describe('AreaPrivadaComponent', () => {
+  let component: AreaPrivadaComponent;
+  let fixture: ComponentFixture<AreaPrivadaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ StyleboxInfoComponent ]
+      declarations: [ AreaPrivadaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(StyleboxInfoComponent);
+    fixture = TestBed.createComponent(AreaPrivadaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
