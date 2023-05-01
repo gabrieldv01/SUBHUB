@@ -7,6 +7,7 @@ import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesi
 import { InicialComponent } from './components/inicial/inicial.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { StyleboxInfoComponent } from './components/stylebox-info/stylebox-info.component';
+import { AreaPrivadaComponent } from './components/area-privada/area-privada.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { StyleboxInfoComponent } from './components/stylebox-info/stylebox-info.
     IniciarSesionComponent,
     InicialComponent,
     PrincipalComponent,
-    StyleboxInfoComponent
+    StyleboxInfoComponent,
+    AreaPrivadaComponent
   ],
   imports: [
     BrowserModule,
