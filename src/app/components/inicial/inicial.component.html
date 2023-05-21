@@ -8,11 +8,17 @@
 </head>
 
   <body>
+    <style>
+      body {
+        margin: 20px; /* Ajusta el valor según el tamaño de margen deseado */
+      }
+    </style>
+
     <!-- Barra superior de navegación -->
     <div class="container-fluid">
       <nav id = "NavbarPrincipal" class="navbar navbar-expand-sm ">
          <div class="container-fluid">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="/" style="font-size: 40px;">
               SUBHUB
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
@@ -21,82 +27,368 @@
             <div id="MenuNavegacion" class="collapse navbar-collapse">
               <ul class="navbar-nav gap-3 px-3">
                 <li class="nav-item">
-                  <a class="nav-link" href="#sobrenosotros" style="color:black;">Sobre nosotros</a>
+                  <a class="nav-link" href="#sobrenosotros" style="color:black ; font-size: 30px">Sobre nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contacto"style="color:black;">Contacto</a>
+                  <a class="nav-link" href="#contacto"style="color:black; font-size: 30px">Contacto</a>
                 </li>
               </ul>
               <ul class="navbar-nav ms-auto gap-3 px-3">
                 <li class="nav-item rounded-pill" style="background-color: #387e90;">
-                  <a class="nav-link" href="/" style="color:white">Crear cuenta</a>
+                  <a class="nav-link" href="/" style="color:white; font-size: 25px">Crear cuenta</a>
                 </li>
                 <li class="nav-item rounded-pill" style="background-color: #387e90;">
-                  <a class="nav-link" href="/iniciar-sesion" style="color:white">Iniciar sesión</a>
+                  <a class="nav-link" href="/iniciar-sesion" style="color:white; font-size: 25px">Iniciar sesión</a>
                 </li>
               </ul>
             </div>
           </div>
       </nav>
     </div>
-
+    <div style="margin-bottom: 30px;"></div>
   <!-- Logo + Info Empresa -->
 <div class="container-fluid">
     <div class="row align-items-center text-center"  style="background-color: #387e90; padding-block: 2%;">
          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
            <img src="assets\Images\SUBHUB_LOGO.png" class="img-fluid center-block">
          </div>
-         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" style="color:white">
-           <p>INFO DE NUESTRA EMPRESA</p>
-         </div>
+         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" style="color:white; font-size: 30px;">
+           <p><br>¿Quieres disfrutar de regalos sorpresa cada mes?<br><br> Únete a nuestro portal de suscripciones de elementos físicos hoy mismo y comienza a recibir tus cajas llenas de sorpresas.</p>
+         <br></div>
     </div>
   </div>
 
-  <!-- Nuestros usuarios -->
-  <div class="container-fluid">
-    <div class="row align-items-center text-center" style="padding-block: 10%;">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <p>Nuestros usuarios</p>
-      </div>
-    </div>
-  </div>
+  
+  <div style="margin-bottom: 30px;"></div>
 
 <!-- Características -->
 
-<div class="container-fluid">
-  <div class="row align-items-center text-center" style="padding-block: 10%;">
-    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-      <p>Características</p>
+<div class="container-fluid py-3" style="background-color: #deb887; color:black">
+  <div class="row align-items-center text-center">
+    <div class="col-sm-12">
+      <h2 class="display-4">Características</h2>
+      <hr>
     </div>
   </div>
 </div>
 
-<!-- Opiniones -->
-<div class="container-fluid">
-  <div class="row align-items-center text-center" style="padding-block: 10%;">
-    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-      <p>Opiniones</p>
+<!-- Funcionalidades generales -->
+<div class="flex-container overflow-hidden" style="background-color: #deb887;">
+  <div class="row justify-content-center">
+    <div class="col-md-10 text-center">
+      <h4 class="text-center mb-4">Funcionalidades generales</h4>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="far fa-user-circle"></i>
+              <h5 class="card-title">Registro de usuarios</h5>
+              <p class="card-text">Permite a los usuarios crear una cuenta en el sistema.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-money-check-alt"></i>
+              <h5 class="card-title">Pagos</h5>
+              <p class="card-text">Proporciona opciones de pago seguras y convenientes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="far fa-bell"></i>
+              <h5 class="card-title">Notificaciones</h5>
+              <p class="card-text">Envía notificaciones importantes a los usuarios.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-cogs"></i>
+              <h5 class="card-title">Administración/Configuración de tu cuenta</h5>
+              <p class="card-text">Permite a los usuarios gestionar y personalizar su cuenta.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="far fa-star"></i>
+              <h5 class="card-title">Calificaciones y comentarios</h5>
+              <p class="card-text">Permite a los usuarios calificar y comentar sobre productos o servicios.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-heart"></i>
+              <h5 class="card-title">Recomendaciones de suscripciones</h5>
+              <p class="card-text">Ofrece recomendaciones personalizadas de suscripciones a los usuarios.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-headset"></i>
+              <h5 class="card-title">Soporte técnico</h5>
+              <p class="card-text">Brinda asistencia técnica a los usuarios cuando lo necesiten.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+</div>
+
+<div class="flex-container overflow-hidden" style="background-color: #deb887;">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-5 text-center">
+      <h4 class="text-center mb-4">Funcionalidades para usuarios</h4>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-check"></i>
+              <h5 class="card-title">Configuración de preferencias</h5>
+              <p class="card-text">Completa un cuestionario inicial para establecer tus preferencias.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-check"></i>
+              <h5 class="card-title">Elección de productos</h5>
+              <p class="card-text">Selecciona los productos que deseas recibir el próximo mes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-check"></i>
+              <h5 class="card-title">Puntuación de productos</h5>
+              <p class="card-text">Califica los productos recibidos para brindar feedback.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-check"></i>
+              <h5 class="card-title">Historial de pedidos</h5>
+              <p class="card-text">Accede al historial de tus pedidos anteriores.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-check"></i>
+              <h5 class="card-title">Monedero virtual</h5>
+              <p class="card-text">Administra tus pagos y saldo en un monedero virtual.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 text-center">
+      <h4 class="text-center mb-4">Funcionalidades para empresas</h4>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-check"></i>
+              <h5 class="card-title">Selección de productos</h5>
+              <p class="card-text">Elige los productos que deseas ofrecer en tu suscripción.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-check"></i>
+              <h5 class="card-title">Tipos de suscripción</h5>
+              <p class="card-text">Define los diferentes tipos de suscripción que ofrecerás.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <div class="card-body">
+              <i class="fas fa-check"></i>
+              <h5 class="card-title">Selección de ofertas</h5>
+              <p class="card-text">Crea y gestiona ofertas especiales para tus suscriptores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid">
-  <div data-bs-spy="scroll" data-bs-target="#NavbarPrincipal" data-bs-offset="0" class="scrollspy-example" tabindex="0" class="row align-items-center text-center" style="color:black">
-    <h4 id="sobrenosotros">Sobre nosotros</h4>
-    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-      <p>Somos alumnos cursando PAE.</p>
+<div style="margin-bottom: 30px;"></div>
+
+
+<!-- Nuestros usuarios -->
+<div class="container-fluid py-3" style="background-color: #387e90; color: white;">
+  <div class="row align-items-center text-center">
+    <div class="col-sm-12">
+      <h2 class="display-4 mb-4">Opiniones</h2>
+      <hr>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="card testimonial-card">
+            <div class="card-body">
+              <div class="rating" style="font-size: 50px; color: #FFEB3B">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+              <p class="card-text mt-3" style="font-size: 20px">¡Excelente servicio! La plataforma de suscripciones es fácil de usar y encuentro productos de alta calidad. <br> Totalmente recomendado.</p>
+              <div class="testimonial-img">
+                <img src="\assets\Images\mujer.jpg" alt="Avatar" class="img-fluid testimonial-img">
+              </div>
+              <p class="user mt-3" style="font-size: 20px">- Ana López</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card testimonial-card">
+            <div class="card-body">
+              <div class="rating" style="font-size: 50px; color: #FFEB3B">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+              <p class="card-text mt-3" style="font-size: 20px">¡Increíble experiencia de compra! Los productos llegan en perfecto estado y siempre superan mis expectativas. Definitivamente seguiré comprando aquí.</p>
+              <div class="testimonial-img">
+                <img src="\assets\Images\hombre.jpg" alt="Avatar" class="img-fluid testimonial-img">
+              </div>
+              <p class="user mt-3 " style="font-size: 20px">- Luis Ramírez</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card testimonial-card">
+            <div class="card-body">
+              <div class="rating" style="font-size: 50px; color: #FFEB3B">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+              <p class="card-text mt-3" style="font-size: 20px">¡Me encanta esta plataforma! La atención al cliente es excelente y siempre encuentro lo que necesito. Sin duda, la mejor opción para comprar en línea.</p>
+              <div class="testimonial-img">
+                <img src="\assets\Images\mujer2.jpg" alt="Avatar" class="img-fluid testimonial-img">
+              </div>
+              <p class="user mt-3" style="font-size: 20px">- Sofía Torres</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid">
-  <div data-bs-spy="scroll" data-bs-target="#NavbarPrincipal" data-bs-offset="0" class="scrollspy-example" tabindex="0" class="row align-items-center text-center" style="color:black; padding-block: 20%;">
-    <h4 id="contacto">Contacto</h4>
-    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-      <p>Este es nuestro contacto</p>
+
+<style>
+  .contact-section {
+    text-align: center;
+    color: black;
+    
+  }
+
+  .contact-section h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 30px;
+  }
+
+  .form-group label {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .form-group textarea {
+    height: 150px;
+  }
+
+  .form-group button {
+    background-color: #fff;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+
+  .form-group button:hover {
+    background-color: #387e90;
+  }
+</style>
+
+<div style="margin-bottom: 30px;"></div>
+
+<section class="contact-section">
+  <div class="flex-container py-3" style="background-color: #deb887;">
+    <h2>Contacta con Nosotros</h2>
+    <div class="contact-form">
+      <form>
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje:</label>
+          <textarea id="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Enviar Mensaje</button>
+        </div>
+      </form>
     </div>
   </div>
-</div>
+</section>
+
 
 </body>
 

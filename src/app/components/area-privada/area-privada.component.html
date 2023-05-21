@@ -1,90 +1,44 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portal de Suscripciones</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de suscripciones</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="area-privada">SUBHUB</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
 
-        <li class="nav-item">
-          <a routerLink="/mis-suscripciones" class="nav-link">Mis suscripciones</a>
-        </li>
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Edita tu perfil</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-md-6">
-        <h1 class="mb-4">Mis suscripciones</h1>
-        <p class="lead">La suscripción perfecta para los amantes del perfume.</p>
-        <ul class="list-unstyled">
-          <!--
-          <li><i class="bi bi-check text-success"></i> Recibe una caja sorpresa de ropa y accesorios cada mes.</li>
-          <li><i class="bi bi-check text-success"></i> Personaliza tus preferencias para obtener una selección adaptada a tu estilo.</li>
-          <li><i class="bi bi-check text-success"></i> Cancela en cualquier momento sin penalizaciones.</li>
-          -->
-          <li><i class="bi bi-check text-success"></i> <b> Presentamos nuestra fragancia exclusiva "Euforia", 
-            un aroma lujoso que te dejará sintiéndote vigorizado y sofisticado. Inspirado en flores exóticas y especias de todo el mundo, Euforia es la adición perfecta a cualquier atuendo u ocasión. </b> </li>
-          <br>
-          <li><i class="bi bi-check text-success"></i> Nuestros suscriptores <b> premium</b> recibirán una botella más grande de Euforia, con un práctico frasco de viaje incluido para aquellos momentos en movimiento. Además, los suscriptores premium también recibirán acceso exclusivo a nuestros aromas de edición limitada y fragancias estacionales, seleccionados cuidadosamente por nuestro equipo de expertos. </li>
-          <br>
-          <li><i class="bi bi-check text-success"></i> Para nuestros suscriptores <b> básicos </b>, recibirás una botella de tamaño estándar de Euforia que te durará por meses. También ofrecemos una selección de lociones corporales y productos de baño con aroma para mejorar tu experiencia de fragancia.</li>
-
-          <li><i class="bi bi-check text-success"></i>  </li>
-
-          <br>
-
-          <li><i class="bi bi-check text-success"></i> <b>  Selecciona el tipo de servicio que desea: </b> </li>
-          
-          <!-- <li>
-            <label>
-              <input type="radio" name="options" value="pos1"> pos1
-            </label>
-          </li>
-          -->
-          <li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="area-privada" style="color:black; font-size: 35px;" >SUBHUB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+    
+            <li class="nav-item">
+              <a routerLink="/mis-suscripciones" class="nav-link" style="color:black; font-size: 25px;">Mis suscripciones</a>
+            </li>
             
-            <label>
-              <input type="radio" name="options" value="pos2"> PREMIUM
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" name="options" value="pos3"> BASICA
-            </label>
-          </li>
-          
-        </ul>
-        <a href="#" class="btn btn-primary">Suscribirse</a>
-      </div>
-
-    </div>
-  </div>
-
-  <footer class="bg-light py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <p>Portal de Suscripciones &copy; 2023</p>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color:black; font-size: 25px;">Edita tu perfil</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-6 text-right">
-          <a href="#">Términos y Condiciones</a>
-        </div>
-      </div>
+      </nav>
+
+    <div class="fluid-container overflow-hidden">
+        <div class="row mt-3 justify-content-center" >
+          <div class="col-lg-2 col-md-4 col-sm-6 ">
+            <div class="card card-height">
+              <img src="assets\Images\stylebox.jpg" class="card-img-top img-size" alt="Stylebox">
+              <div class="card-body">
+                <h5 class="card-title">Stylebox</h5>
+                <p class="card-text">Recibe cada mes una selección de productos de belleza y cuidado personal.</p>
+                <a href="/stylebox" class="btn btn-primary">ACCEDER</a>
+              </div>
+            </div>
+          </div>
+          </div>
     </div>
-  </footer>
