@@ -8,6 +8,7 @@ import { InicialComponent } from './components/inicial/inicial.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { StyleboxInfoComponent } from './components/stylebox-info/stylebox-info.component';
 import { AreaPrivadaComponent } from './components/area-privada/area-privada.component';
+import { StyleboxComponent } from './components/stylebox/stylebox.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AreaPrivadaComponent } from './components/area-privada/area-privada.com
     InicialComponent,
     PrincipalComponent,
     StyleboxInfoComponent,
-    AreaPrivadaComponent
+    AreaPrivadaComponent,
+    StyleboxComponent
   ],
   imports: [
     BrowserModule,
