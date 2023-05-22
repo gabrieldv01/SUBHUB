@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Suscripciones</title>
+  <link rel="stylesheet" href="./talla.component.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="area-privada">SUBHUB</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a routerLink="/mis-suscripciones" class="nav-link">Mis suscripciones</a>
+        </li>
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Edita tu perfil</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+    <div class="container">
+      <h1>Selecciona tu talla</h1>
+      <form>
+        <div class="form-group">
+          <label for="parte-superior">Parte superior:</label>
+          <select id="parte-superior">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="2XL">2XL</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="parte-inferior">Parte inferior:</label>
+          <select id="parte-inferior">
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="36">36</option>
+            <option value="38">38</option>
+            <option value="40">40</option>
+            <option value="42">42</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="calzado">Calzado:</label>
+          <select id="calzado">
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+            <option value="46">46</option>
+          </select>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+</body>
+
+  <footer class="bg-light py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Portal de Suscripciones &copy; 2023</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <a href="#">Términos y Condiciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>
