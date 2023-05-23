@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Suscripciones</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="area-privada">SUBHUB</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a routerLink="/mis-suscripciones" class="nav-link">Mis suscripciones</a>
+        </li>
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Edita tu perfil</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <h1 class="mb-4">Cuestionario para conocerte mejor</h1>
+    <br>
+    <p>Rellena este cuenstionario para recibir productos personalizados</p>
+    <form>
+        <p class="question">Género:</p>
+        <label><input type="radio" name="genero" value="Hombre"> Hombre</label><br>
+        <label><input type="radio" name="genero" value="Mujer"> Mujer</label><br>
+
+        <p class="question">Seleccione sus tallas:</p> 
+
+        <div class="form-group">
+          <label for="parte-superior" style="margin-right: 40px;">Parte superior:</label>
+          <select id="parte-superior">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="2XL">2XL</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="parte-inferior" style="margin-right: 47px;">Parte inferior:</label>
+          <select id="parte-inferior">
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="36">36</option>
+            <option value="38">38</option>
+            <option value="40">40</option>
+            <option value="42">42</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="calzado" style="margin-right: 82px;">Calzado:</label>
+          <select id="calzado" >
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+            <option value="46">46</option>
+          </select>
+        </div> 
+    
+        <p class="question">¿Cuál es tu color favorito?</p>
+        <label><input type="radio" name="color" value="Azul"> Azul</label><br>
+        <label><input type="radio" name="color" value="Rojo"> Rojo</label><br>
+        <label><input type="radio" name="color" value="Verde"> Verde</label><br>
+        <label><input type="radio" name="color" value="Amarillo"> Amarillo</label><br>
+        <label><input type="radio" name="color" value="Morado"> Morado</label><br>
+    
+        <p class="question">¿Te gusta la ropa cómoda o ajustada?</p>
+        <label><input type="radio" name="ropa" value="Cómoda"> Cómoda</label><br>
+        <label><input type="radio" name="ropa" value="Ajustada"> Ajustada</label><br>
+        <label><input type="radio" name="ropa" value="Ambas"> Ambas</label><br>
+        <label><input type="radio" name="ropa" value="No tengo una preferencia clara"> No tengo una preferencia clara</label><br>
+    
+        <p class="question">¿Prefieres la ropa casual o formal?</p>
+        <label><input type="radio" name="estilo" value="Casual"> Casual</label><br>
+        <label><input type="radio" name="estilo" value="Formal"> Formal</label><br>
+        <label><input type="radio" name="estilo" value="Ambas"> Ambas</label><br>
+        <label><input type="radio" name="estilo" value="No tengo una preferencia clara"> No tengo una preferencia clara</label><br>
+    
+        <p class="question">¿Te gustan las prendas con estampados o lisas?</p>
+        <label><input type="radio" name="estampados" value="Estampados"> Estampados</label><br>
+        <label><input type="radio" name="estampados" value="Lisas"> Lisas</label><br>
+        <label><input type="radio" name="estampados" value="Ambas"> Ambas</label><br>
+        <label><input type="radio" name="estampados" value="No tengo una preferencia clara"> No tengo una preferencia clara</label><br>
+    
+        <p class="question">¿Qué tipo de tejidos prefieres en tus prendas?</p>
+        <label><input type="radio" name="tejidos" value="Algodón"> Algodón</label><br>
+        <label><input type="radio" name="tejidos" value="Lana"> Lana</label><br>
+        <label><input type="radio" name="tejidos" value="Seda"> Seda</label><br>
+        <label><input type="radio" name="tejidos" value="Lino"> Lino</label><br>
+        <label><input type="radio" name="tejidos" value="Otro"> Otro</label><br>
+    
+        <p class="question">¿Te gustan las prendas de moda o prefieres clásicos atemporales?</p>
+        <label><input type="radio" name="estilo-prendas" value="Prendas moda"> Prendas moda</label><br>
+        <label><input type="radio" name="estilo-prendas" value="Clásicos atemporales"> Clásicos atemporales</label><br>
+        <label><input type="radio" name="estilo-prendas" value="Ambas"> Ambas</label><br>
+        <label><input type="radio" name="estilo-prendas" value="No tengo una preferencia clara"> No tengo una preferencia clara</label><br>
+    
+        <p class="question">¿Qué tipo de zapatos prefieres?</p>
+        <label><input type="radio" name="zapatos" value="Bambas"> Bambas</label><br>
+        <label><input type="radio" name="zapatos" value="Botas"> Botas</label><br>
+        <label><input type="radio" name="zapatos" value="Sandalias"> Sandalias</label><br>
+        <label><input type="radio" name="zapatos" value="Tacones"> Tacones</label><br>
+        <label><input type="radio" name="zapatos" value="Zapatos planos"> Zapatos planos</label><br>
+    
+        <p class="question">¿Qué prendas son esenciales en tu guardarropa?</p>
+        <label><input type="checkbox" name="guardarropa" value="Jeans"> Jeans</label><br>
+        <label><input type="checkbox" name="guardarropa" value="Camisetas básicas"> Camisetas básicas</label><br>
+        <label><input type="checkbox" name="guardarropa" value="Sudadera"> Sudadera</label><br>
+        <label><input type="checkbox" name="guardarropa" value="Otro"> Otro</label><br>
+    
+        <p class="question">¿Te gustan los accesorios, como joyas, sombreros o bufandas?</p>
+        <label><input type="radio" name="accesorios" value="Sí, me gustan mucho"> Sí, me gustan mucho</label><br>
+        <label><input type="radio" name="accesorios" value="Me gustan bastante"> Me gustan bastante</label><br>
+        <label><input type="radio" name="accesorios" value="No soy muy fan de los accesorios"> No soy muy fan de los accesorios</label><br>
+        <label><input type="radio" name="accesorios" value="No tengo una preferencia clara"> No tengo una preferencia clara</label>
+    
+        <br><br>
+        <a href="/look1" class="btn btn-primary">Siguiente</a>
+      </form>
+  </div>
+
+  <footer class="bg-light py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Portal de Suscripciones &copy; 2023</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <a href="#">Términos y Condiciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>

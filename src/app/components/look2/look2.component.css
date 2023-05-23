@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image1 {
+    width: 318px;
+    height: 424px;
+    border: 2px solid black;
+    margin: 20px;
+    
+  }
+
+  .image1 img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image1:hover img {
+    transform: scale(1.1);
+  }
+
+  .titulo {
+    text-align: center;
+    margin: 30px;
+  }
+  

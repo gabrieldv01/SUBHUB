@@ -9,6 +9,10 @@ import { PrincipalComponent } from './components/principal/principal.component';
 import { StyleboxInfoComponent } from './components/stylebox-info/stylebox-info.component';
 import { AreaPrivadaComponent } from './components/area-privada/area-privada.component';
 import { StyleboxComponent } from './components/stylebox/stylebox.component';
+import { CuestionarioComponent } from './components/cuestionario/cuestionario.component';
+import { Look1Component } from './components/look1/look1.component';
+import { Look2Component } from './components/look2/look2.component';
+import { Look3Component } from './components/look3/look3.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { StyleboxComponent } from './components/stylebox/stylebox.component';
     PrincipalComponent,
     StyleboxInfoComponent,
     AreaPrivadaComponent,
-    StyleboxComponent
+    StyleboxComponent,
+    CuestionarioComponent,
+    Look1Component,
+    Look2Component,
+    Look3Component
   ],
   imports: [
     BrowserModule,
