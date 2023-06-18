@@ -2,10 +2,10 @@
 
 ##Integrants del grup
 
-Abdelrahim Chelh
-Gabriel del Valle
-He Chen
-Adrián Braojos
+Abdelrahim Chelh \
+Gabriel del Valle \
+He Chen \
+Adrián Braojos \
 
 ##Comentaris
 
